@@ -32,3 +32,5 @@ git checkout -b <'nume_branch'>
 
 git push origin <'nume_branch'>
 - salveaza codul dvs pe remote URL (GitHub)
+
+-notite de la Catalina
