@@ -1,8 +1,7 @@
 import pdf2image
 from img_to_text import functie_de_convertire_img_to_string
 
-#poppler https://github.com/oschwartz10612/poppler-windows/releases/
-#tesseract  https://pypi.org/project/pytesseract/#:~:text=Python%2Dtesseract%20is%20a%20wrapper,bmp%2C%20tiff%2C%20and%20others.
+
 
 def convert_pdf_to_text_dict(pdf_path, Folder):
     poppler_bin = "B:/prog/poppler-23.01.0/Library/bin"
