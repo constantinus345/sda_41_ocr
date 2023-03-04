@@ -1,0 +1,9 @@
+Extindeti functionalitatea programului a.i. sa creeze un fisier de tip .txt cu fiecare pagina aparte, in modul urmator:
+
+>>>pagina x<<<
+textul_extras
+--------------------------------
+>>>pagina x+1<<<
+textul_extras
+
+#x si textul_extras sunt variabile, bineinteles
