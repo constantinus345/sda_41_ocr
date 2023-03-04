@@ -7,3 +7,28 @@ textul_extras
 textul_extras
 
 #x si textul_extras sunt variabile, bineinteles
+
+Instructiuni simple de comenzi git
+
+git init
+-initializeaza repozitorul local
+
+git remote add origin <url>
+-conectati repozitorul local cu cel de pe github (sau alte website-uri de publicare cod)
+
+git add --all
+-adauga toate fisierele in repozitorul local pentru tracking (nu salveaza)
+
+git commit -am 'mesaj'
+- salveaza fisierele in repozitorul local cu un mesaj
+-mesajul e bine sa descrie ce modificari ati facut
+
+git pull
+sau: git pull origin <branch name>
+-descarca continutul de cod de pe URL-ul setat la git remote add origin <url>
+
+git checkout -b <'nume_branch'>
+-creaza branch pentru a separa codul de master
+
+git push origin <'nume_branch'>
+- salveaza codul dvs pe remote URL (GitHub)
